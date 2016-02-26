@@ -13,7 +13,14 @@
 #include <math.h>
 
 /*
- Now I'm going to push this file to bitbucket for the first time.
+ Now I'm going to illustrate why I think my code has the least meomery.
+ I define the double pointer pix , and malloc it with its row number, in 
+ that case, I can take the minium spcace it needs; Then define the pix[row]
+which is the arrays of pointers which are poniters to each line numbers.
+And it is the same way , ask the system give column numbers to miumim its
+space, in that case, both rows and columes are minmum so that the mermory 
+we need is minmum and those it is somewhat different from the two mension 
+array because only each row is continous and differect columns are not.  
  */
 
 int main(int argc, char** argv) {
