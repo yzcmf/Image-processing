@@ -290,3 +290,4 @@ int main(int argc, char** argv) {
  4. The total memory for my program is : 786432 * 28(bytes) = 22020096(bytes)=21MB;
  
 */homework2.c
+homework2.c
